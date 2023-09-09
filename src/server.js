@@ -32,9 +32,13 @@
 
 // HTTP Status Code
 
-// Query Parameters: URL Stateful
-// Route Parameters:
-// Request Body:
+// Query Parameters: URL Stateful => Filtros, paginaçaom, nao-obrigatorios
+// Route Parameters: idetifiacaçao de recursos
+// Request Body: Envio de informaçoes de um formulario (HTTP)
+
+// http://localhost:3333/users?userId=1&name=Diego
+// GET http://localhost:3333/users/1
+
 
 import http from 'node:http';
 
